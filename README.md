@@ -14,16 +14,13 @@ Heute hast du etwas über Funktionen gelernt.
 Funktionen können vielfältig genutzt werden.
 In den kommenden Tagen wirst du noch mehr Nutzen von Funktionen erfahren.
 Heute geht es jedoch darum, dass du einmal mit Funktionen hantierst, 
-um ein gespür dafür zu bekommen, wie Funktionen funktionieren.
+um ein Gespür dafür zu bekommen, wie Funktionen funktionieren.
 In den folgenden Übungen kannst du dein neues Wissen praktisch anwenden.
 
 
 #### Hinweise zur Bearbeitung:
 
 - Achte auf einen sauberen Quellcode, insbesondere Einrückungen sind wichtig!
-- Wichtige Materialien für heute:
-  - [Handbuch: Funktionen → Verstehen → Funktionen](https://docs.google.com/document/d/13SyoQ3tgIr4T9tiUl42V5kiBGQwV4Lk-XA2SsKf-va0/edit#heading=h.7y9nld4qtemu)
-  - [Handbuch: Funktionen → Implementieren → Funktionen implementieren und aufrufen](https://docs.google.com/document/d/13SyoQ3tgIr4T9tiUl42V5kiBGQwV4Lk-XA2SsKf-va0/edit#heading=h.joyglfnr6t0o)
 
 ---
 
