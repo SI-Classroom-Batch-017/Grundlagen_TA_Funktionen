@@ -21,6 +21,7 @@ var vornamen = listOf(
     "Ida", "Mohamed",
     "Lea", "Paul"
 )
+
 fun main(){
 
 }
