@@ -1,6 +1,4 @@
 /*
-Schau dir die Fragen an und setze bei allen Richtigen Antworten vorne ein x.
-
 fun animal() {
     val myAnimal: String = "Dog"
     print(myAnimal)
