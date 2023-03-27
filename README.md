@@ -199,6 +199,8 @@ Schreibe eine Funktion waitForSeconds.
 - Thread erwartet von uns gesagt zu bekommen, wieviele Millisekunden das Programm schlafen soll.
 - Die Millisekunden müssen als long angegeben werden. Wandle also den Input des Nutzers um mit toLong().
 - Rufe diese Funktion in der main-Funktion auf!
+
+**Datei für die Aufgabe:** *Aufgabe9.kt*
 </details>
 
 ---
@@ -216,6 +218,23 @@ Schreibe eine Funktion waitForSeconds.
 
   
 - c) starte das main-Programm, sodass jeweils 5 Namen und 5 fancy Namen ausgegeben werden.
+
+**Datei für die Aufgabe:** *Aufgabe10.kt*
+
+</details>
+
+---
+
+<details>
+<summary> <b> Bonus - Poesiegenerator </b></summary>
+Ziel dieser Aufgabe ist es eine poetische Zufallsausgabe zu generieren. 
+Diese soll sich aus zufällig gewählten Elementen verschiedener Listen zusammensetzen.
+
+- Erstelle dafür mindestens 4 Listen mit einzelnen Wörtern, gerne auch mehr
+- Lasse dir zufällig Elemente aus den Listen ausgeben und Reihe diese in der Ausgabe aneinander
+- Genieße dein Leben als Poet!
+
+**Datei für die Aufgabe:** *Bonus.kt*
 
 </details>
 
