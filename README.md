@@ -175,15 +175,42 @@ fun myFavoriteMovie() {
 <details>
 <summary> <b> Aufgabe 8 - Funktion entwerfen  </b> </summary>
 
+a)
 Ein Freund hat eine Entdeckung gemacht. Er hat rausgefunden, wie man den Flächeninhalt eines Quadrats berechnet. Die Formel ist a*a. Mit dieser Formel kann man auch den Inhalt eines rechtwinkligen Dreiecks berechnen, indem man das ganze durch 2 teilt.
 
 Implementiere die Berechnung für ein rechtwinkliges Dreieck in einer Funktion. Am Ende dieser Funktion soll das Ergebnis mit println() ausgegeben werden. Überlege dir auch einen passenden (englischen) Namen. Die Seiten des Quadrats sollen hier 4 cm Länge haben.
 
+b)
+Ändere nun die Funktion, die du in a) geschrieben hast. 
+Die Seitenlänge des Quadrats soll nun nicht mehr statisch 4cm sein, sondern vom Nutzer mithilfe einer Eingabe zur Laufzeit bestimmt werden.
 
 **Datei für die Aufgabe:** *8_FunktionEntwerfen.kt*
 
 </details>
 
+---
 
+<details>
+<summary> <b> Aufgabe 9 - Funktion entwerfen </b></summary>
 
+Schreibe eine Funktion waitForSeconds.
+- Innerhalb dieser Funktion soll der Nutzer eine Ganzzahl-Eingabe via der Konsole machen. Diese Eingabe soll dann genutzt werden, um das Programm so viele Sekunden anzuhalten.
+- Tipp: Um das Programm warten zu lassen, benutze Thread.sleep(). 
+- Thread erwartet von uns gesagt zu bekommen, wieviele Millisekunden das Programm schlafen soll.
+- Die Millisekunden müssen als long angegeben werden. Wandle also den Input des Nutzers um mit toLong().
+- Rufe diese Funktion in der main-Funktion auf!
+</details>
+
+---
+
+<details>
+<summary> <b> Aufgabe 10 - Funktion entwerfen </b></summary>
+
+- Gegeben ist eine Liste mit 20 beliebten deutschen Vornamen und eine Map aus Nachnamen und deren Häufigkeit.
+- a) Schreibe nun eine Funktion nameGenerator(). Diese Funktion nimmt einen zufälligen Vornamen und Nachnamen aus den Listen und gibt so dann einen Vollständigen Namen auf der Konsole aus:
+- b)  Schreibe eine 2. Funktion fancyNameGenerator() . Diese Funktion soll uns einen Namen mit der Folgenden Form generieren:
+  "$vorname1-$vorname2 von $nachname".
+- c)starte das main-Programm, sodass jeweils 5 Namen und 5 fancy Namen ausgegeben werden.
+
+</details>
 
