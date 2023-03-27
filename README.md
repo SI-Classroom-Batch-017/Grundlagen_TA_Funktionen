@@ -91,8 +91,6 @@ fun _______(){
 
 Hier gibt es jetzt 2 Funktionen, die in der Main-Funktion aufgerufen werden. Schreibe in die Aufgabe was in der Konsole ausgegeben wird.
 
-Beantworte danach die Fragen in der Datei.
-
 ```
 fun animal() {
     val myAnimal: String = "Dog"
@@ -115,20 +113,12 @@ fun main(){
 ---
 
 <details>
-<summary> <b> Aufgabe 5 - Vorhersagen, was Funktion ausgeben würde  </b> </summary>
+<summary> <b> Aufgabe 5 - Subtrahieren  </b> </summary>
 
-Wie macht der Hund? Im Folgendem Beispiel haben wir eine Funktion gegeben, die bellen() heißt. Aber es sind Laute von verschiedenen Tieren gegeben. Welche der Variable sollte ausgegeben werden, damit das bellen() richtig ist?
+- Schreibe eine Funktion in der du zwei Zahlen voneinander abziehst und das Ergebnis ausgibst.
+- Rufe die Funktion in der main-Funktion auf!
 
-```
-fun bellen(){
-var b1 = "Wuff"
-var b2 = "Miau"
-var b3 = "AUUUUUU"
-var b4 = "Kleff"
-}
-```
-
-**Datei für die Aufgabe:** *5_Textabgabe.kt*
+**Datei für die Aufgabe:** *Aufgabe5.kt*
 
 </details>
 
@@ -182,7 +172,7 @@ Implementiere die Berechnung für ein rechtwinkliges Dreieck in einer Funktion. 
 
 b)
 Ändere nun die Funktion, die du in a) geschrieben hast. 
-Die Seitenlänge des Quadrats soll nun nicht mehr statisch 4cm sein, sondern vom Nutzer mithilfe einer Eingabe zur Laufzeit bestimmt werden.
+Die Seitenlänge des Quadrats soll nun nicht mehr statisch 4cm sein, sondern vom Nutzer mithilfe einer Eingabe bestimmt werden.
 
 **Datei für die Aufgabe:** *8_FunktionEntwerfen.kt*
 
