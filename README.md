@@ -210,6 +210,10 @@ Schreibe eine Funktion waitForSeconds.
 - a) Schreibe nun eine Funktion nameGenerator(). Diese Funktion nimmt einen zufälligen Vornamen und Nachnamen aus den Listen und gibt so dann einen Vollständigen Namen auf der Konsole aus:
 - b)  Schreibe eine 2. Funktion fancyNameGenerator() . Diese Funktion soll uns einen Namen mit der Folgenden Form generieren:
   "$vorname1-$vorname2 von $nachname".
+  Die Ausgabe könnte dann wie folgt aussehen: 
+  <img width="343" alt="Bildschirm­foto 2023-03-27 um 08 41 26" src="https://user-images.githubusercontent.com/108675807/227860744-b91cd268-b677-4a6b-b1c0-9e741633ec30.png">
+
+  
 - c)starte das main-Programm, sodass jeweils 5 Namen und 5 fancy Namen ausgegeben werden.
 
 </details>
