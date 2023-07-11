@@ -9,7 +9,7 @@
 
 #### Beschreibung:
 
-Willkommen zu den Aufgaben von Tag 11!
+Willkommen zu den Aufgaben von Tag 11! 
 Heute hast du etwas über Funktionen gelernt.
 Funktionen können vielfältig genutzt werden.
 In den kommenden Tagen wirst du noch mehr Nutzen von Funktionen erfahren.
@@ -31,13 +31,13 @@ Willkommen zu deiner ersten Aufgabe in dieser Übung. In dieser Aufgabe wirst du
 
 Vorgaben:
 - fange oberhalb der main-Funktion an
-- schreibe das Keyword für Funktionen “fun”
-- nenne deine Funktion “sum()”
-- lege im Rumpf zwei Variablen an:
+- schreibe das Keyword für Funktionen "fun"
+- nenne deine Funktion "sum()"
+- lege im body der Funktion (zwischen den geschweiften Klammern) zwei Variablen an:
   - number1 = 3
   - number2 = 7
-- gebe mit der print-Anweisung die Summe in der Konsole aus “print(number1 + number2)”
-- rufe “sum()” in der Main-Funktion auf
+- gebe mit der print-Anweisung die Summe in der Konsole aus "print(number1 + number2)"
+- rufe "sum()" in der Main-Funktion auf
 
 
 **Datei für die Aufgabe:** *1_FunktionImplementierenUndAufrufen*
@@ -49,7 +49,8 @@ Vorgaben:
 <details>
 <summary> <b> Aufgabe 2 - Name für Funktion entwerfen  </b> </summary>
 
-It’s magic time. Worte und Namen sind mächtig. Was denkst du wieso alle Zauberer und Magier ihre Magie mit Sprüchen beschwören. Diese Macht gilt für alles was einen Namen hat. Deswegen sei weise in der Namensgebung. Ansonsten wird dir dessen Magie noch zum Verhängnis. Bist du ein Champion der magischen IT-Künste? Das wirst du in den folgenden Aufgaben herausfinden.
+It’s magic time. Worte und Namen sind mächtig. Was denkst du wieso alle Zauberer und Magier ihre Magie mit Sprüchen beschwören? Diese Macht gilt für alles, was einen Namen hat. 
+Deswegen sei weise in der Namensgebung. Ansonsten wird dir dessen Magie noch zum Verhängnis. Bist du ein Champion der magischen IT-Künste? Das wirst du in den folgenden Aufgaben herausfinden.
 Weiter unten findest du einen Codeschnipsel einer Funktion. Mit dieser Funktion kann ein Zauberer einen Schutzzauber bewirken. Überlege dir einen passenden Namen.
 
 ```
@@ -69,7 +70,7 @@ fun _________(){
 <details>
 <summary> <b> Aufgabe 3 - Name für Funktion entwerfen  </b> </summary>
 
-Dein Chef hat eine Formel entdeckt, mit der er das Volumen eines Würfels berechnen kann. Aber er tut sich schwer mit der Namensgebung. Kannst du Ihm dabei helfen einen geeigneten Namen zu formulieren?
+Dein Chef hat eine Formel entdeckt, mit der er das Volumen eines Würfels berechnen kann. Aber er tut sich schwer mit der Namensgebung. Kannst du ihm dabei helfen einen geeigneten Namen zu formulieren?
 
 ```
 fun _______(){
@@ -115,10 +116,10 @@ fun main(){
 <details>
 <summary> <b> Aufgabe 5 - Subtrahieren  </b> </summary>
 
-- Schreibe eine Funktion in der du zwei Zahlen voneinander abziehst und das Ergebnis ausgibst.
+- Schreibe eine Funktion, in der du zwei Zahlen voneinander abziehst und das Ergebnis ausgibst.
 - Rufe die Funktion in der main-Funktion auf!
 
-**Datei für die Aufgabe:** *Aufgabe5.kt*
+**Datei für die Aufgabe:** *5_FunktionSubtrahieren.kt*
 
 </details>
 
@@ -136,6 +137,7 @@ addition() {
     println(number1 + number2)
 }
 ```
+**Hinweis:** manchmal reicht ein falsches Wort, das dein Code nicht mehr funktioniert.
 
 **Datei für die Aufgabe:** *6_Textabgabe.kt*
 
@@ -171,8 +173,8 @@ Ein Freund hat eine Entdeckung gemacht. Er hat rausgefunden, wie man den Fläche
 Implementiere die Berechnung für ein rechtwinkliges Dreieck in einer Funktion. Am Ende dieser Funktion soll das Ergebnis mit println() ausgegeben werden. Überlege dir auch einen passenden (englischen) Namen. Die Seiten des Quadrats sollen hier 4 cm Länge haben.
 
 b)
-Ändere nun die Funktion, die du in a) geschrieben hast. 
-Die Seitenlänge des Quadrats soll nun nicht mehr statisch 4cm sein, sondern vom Nutzer mithilfe einer Eingabe bestimmt werden.
+Ändere jetzt die Funktion, die du in a) geschrieben hast. 
+Die Seitenlänge des Quadrats soll dann nicht mehr statisch 4 cm sein, sondern vom Nutzer mithilfe einer Eingabe bestimmt werden.
 
 **Datei für die Aufgabe:** *8_FunktionEntwerfen.kt*
 
@@ -186,11 +188,11 @@ Die Seitenlänge des Quadrats soll nun nicht mehr statisch 4cm sein, sondern vom
 Schreibe eine Funktion waitForSeconds.
 - Innerhalb dieser Funktion soll der Nutzer eine Ganzzahl-Eingabe via der Konsole machen. Diese Eingabe soll dann genutzt werden, um das Programm so viele Sekunden anzuhalten.
 - Tipp: Um das Programm warten zu lassen, benutze Thread.sleep(). 
-- Thread erwartet von uns gesagt zu bekommen, wieviele Millisekunden das Programm schlafen soll.
+- Thread erwartet von uns gesagt zu bekommen, wie viele Millisekunden das Programm schlafen soll.
 - Die Millisekunden müssen als long angegeben werden. Wandle also den Input des Nutzers um mit toLong().
 - Rufe diese Funktion in der main-Funktion auf!
 
-**Datei für die Aufgabe:** *Aufgabe9.kt*
+**Datei für die Aufgabe:** *9_FunktionEntwerfen.kt*
 </details>
 
 ---
@@ -199,8 +201,8 @@ Schreibe eine Funktion waitForSeconds.
 <summary> <b> Aufgabe 10 - Funktion entwerfen </b></summary>
 
 - Gegeben ist eine Liste mit 20 beliebten deutschen Vornamen und eine Map aus Nachnamen und deren Häufigkeit.
-- a) Schreibe nun eine Funktion nameGenerator(). Diese Funktion nimmt einen zufälligen Vornamen und Nachnamen aus den Listen und gibt so dann einen Vollständigen Namen auf der Konsole aus:
-- b)  Schreibe eine 2. Funktion fancyNameGenerator() . Diese Funktion soll uns einen Namen mit der Folgenden Form generieren:
+- a) Schreibe nun eine Funktion nameGenerator(). Diese Funktion nimmt einen zufälligen Vornamen und Nachnamen aus den Listen und gibt so dann einen vollständigen Namen auf der Konsole aus:
+- b) Schreibe eine 2. Funktion fancyNameGenerator() . Diese Funktion soll uns einen Namen mit der folgenden Form generieren:
   "$vorname1-$vorname2 von $nachname".
   Die Ausgabe könnte dann wie folgt aussehen:
 
