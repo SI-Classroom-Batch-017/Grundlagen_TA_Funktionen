@@ -160,7 +160,7 @@ fun myFavoriteMovie() {
 <details>
 <summary> <b> Aufgabe 8 - Funktion entwerfen  </b> </summary>
 
-<img width="100" alt="Rechtwinkliges Dreieck" src="img/img3.png">
+<img width="300" alt="Rechtwinkliges Dreieck" src="img/img3.png">
 
 a)  
 Den Flächeninhalt eines rechtwinkligen Dreiecks lässt sich durch `a * b / 2` ausrechnen.
