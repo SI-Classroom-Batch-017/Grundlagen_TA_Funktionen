@@ -160,14 +160,15 @@ fun myFavoriteMovie() {
 <details>
 <summary> <b> Aufgabe 8 - Funktion entwerfen  </b> </summary>
 
-a)
-Ein Freund hat eine Entdeckung gemacht. Er hat rausgefunden, wie man den Flächeninhalt eines Quadrats berechnet. Die Formel ist `a * a`. Mit dieser Formel kann man auch den Inhalt eines rechtwinkligen Dreiecks berechnen, indem man das ganze durch 2 teilt.
+<img width="100" alt="Rechtwinkliges Dreieck" src="img/img3.png">
 
-Implementiere die Berechnung für ein rechtwinkliges Dreieck in einer Funktion. Am Ende dieser Funktion soll das Ergebnis mit println() ausgegeben werden. Überlege dir auch einen passenden (englischen) Namen. Die Seiten des Quadrats sollen hier 4 cm Länge haben.
+a)  
+Den Flächeninhalt eines rechtwinkligen Dreiecks lässt sich durch `a * b / 2` ausrechnen.
+Implementiere die Berechnung für ein rechtwinkliges Dreieck in einer Funktion. Am Ende dieser Funktion soll das Ergebnis mit println() ausgegeben werden. Überlege dir auch einen passenden (englischen) Namen. Seite A soll 4cm lang sein und Seite B soll 3 cm lang sein.  
 
-b)
+b)  
 Ändere jetzt die Funktion, die du in a) geschrieben hast. 
-Die Seitenlänge des Quadrats soll dann nicht mehr statisch 4 cm sein, sondern vom Nutzer mithilfe einer Eingabe bestimmt werden.
+Die Seitenlänge des Quadrats soll dann nicht mehr statisch 4 cm sein, sondern vom Nutzer mithilfe einer Eingabe bestimmt werden. Teste deine Funktion und gib **3** als Seitenlänge A und **5** als Seitenlänge B an. Kommt das Ergebnis **7.5** heraus?
 
 **Datei für die Aufgabe:** *8_FunktionEntwerfen.kt*
 
