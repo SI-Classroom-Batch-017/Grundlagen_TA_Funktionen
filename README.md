@@ -168,7 +168,7 @@ Implementiere die Berechnung für ein rechtwinkliges Dreieck in einer Funktion. 
 
 b)  
 Ändere jetzt die Funktion, die du in a) geschrieben hast. 
-Die Seitenlänge des Quadrats soll dann nicht mehr statisch 4 cm sein, sondern vom Nutzer mithilfe einer Eingabe bestimmt werden. Teste deine Funktion und gib **3** als Seitenlänge A und **5** als Seitenlänge B an. Kommt das Ergebnis **7.5** heraus?
+Die Seitenlängen des Dreiecks sollen dann nicht mehr statisch 4cm bzw 3cm sein, sondern sollen vom Nutzer mithilfe einer Eingabe bestimmt werden. Teste deine Funktion und gib **3** als Seitenlänge A und **5** als Seitenlänge B ein. Kommt das Ergebnis **7.5** heraus?
 
 **Datei für die Aufgabe:** *8_FunktionEntwerfen.kt*
 
@@ -179,12 +179,12 @@ Die Seitenlänge des Quadrats soll dann nicht mehr statisch 4 cm sein, sondern v
 <details>
 <summary> <b> Aufgabe 9 - Funktion entwerfen </b></summary>
 
-Schreibe eine Funktion waitForSeconds.
+Schreibe eine Funktion `waitForSeconds`.
 - Innerhalb dieser Funktion soll der Nutzer eine Ganzzahl-Eingabe via der Konsole machen. Diese Eingabe soll dann genutzt werden, um das Programm so viele Sekunden anzuhalten.
 - Tipp: Um das Programm warten zu lassen, benutze `Thread.sleep()`. 
 - Thread erwartet von uns gesagt zu bekommen, wie viele Millisekunden das Programm schlafen soll.
 - Die Millisekunden müssen als long angegeben werden. Wandle also den Input des Nutzers um mit toLong().
-- Rufe diese Funktion in der main-Funktion auf!
+- Rufe diese Funktion in der main-Funktion auf und teste ob sie funktioniert!
 
 **Datei für die Aufgabe:** *9_FunktionEntwerfen.kt*
 </details>
