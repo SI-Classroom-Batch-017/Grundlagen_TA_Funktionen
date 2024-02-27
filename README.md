@@ -142,15 +142,31 @@ addition() {
 
 **Datei für die Aufgabe:** *7_Textabgabe.kt*
 
-Was genau wird in der gegebenen Funktion ausgegeben?
+Hier siehst du die Funktion equipmentReminder eines Smartphones.
 
+a)
+Was genau wird in der gegebenen Funktion ausgegeben?
 ```
-fun myFavoriteMovie() {
-    val movies: MutableList<String> = mutableListOf("Matrix", "Avengers", "Der Pate", "Toy Story")
-    val favMovie: String = movies[movies.size-1]
-    println(favMovie)
+fun equipmentReminder(){
+    var weekday: String = "Montag"
+
+    if (weekday == "Montag"){
+        println("Heute hast du Training, nimm deine Sporttasche mit.")
+    } else if (weekday == "Mittwoch"){
+        println("Heute hast du Musikunterricht, nimm dein Instrument mit.")
+    } else if (weekday == "Freitag"){
+        println("Heute Abend ist Kinoabend, nimm genug Geld mit.")
+    } else {
+        println("Heute hast du keinen Termin, du brauchst nichts mit zur Arbeit zu nehmen.")
+    }
 }
 ```
+b)
+Was würde die Funktion ausgeben, wenn die Variable weekday folgendermaßen aktualisiert wird?
+```
+weekday = "Dienstag"
+```
+
 
 </details>
 
@@ -195,32 +211,50 @@ Schreibe eine Funktion `waitForSeconds`.
 <summary> <b> Aufgabe 10 - Funktion entwerfen </b></summary>
 
 **Datei für die Aufgabe:** *Aufgabe10.kt*
+Erstelle eine Funktion calculator
 
-- Gegeben ist eine Liste mit 20 beliebten deutschen Vornamen und eine Map aus Nachnamen und deren Häufigkeit.
-- a) Schreibe nun eine Funktion `nameGenerator()`. Diese Funktion nimmt einen zufälligen Vornamen und Nachnamen aus den Listen und gibt so dann einen vollständigen Namen auf der Konsole aus:
-- b) Schreibe eine 2. Funktion `fancyNameGenerator()` . Diese Funktion soll uns einen Namen mit der folgenden Form generieren:
-  "$vorname1-$vorname2 von $nachname".
-  Die Ausgabe könnte dann wie folgt aussehen:
+- Fordere den Anwender über die Konsole auf, die erste Zahl einzugeben.
+  - Speicher die eingegebene Zahl in der Variable number1 als Integer ab.
+- Fordere den Anwender über die Konsole auf, die zweite Zahl einzugeben.
+  - Speicher die eingegebene Zahl in der Variable number2 als Integer ab.
 
-  <img width="300" alt="Bildschirm­foto 2023-03-27 um 08 41 26" src="img/img2.png">
-  
-- c) starte das main-Programm, sodass jeweils 5 Namen und 5 fancy Namen ausgegeben werden.
+- Nun soll der Anwender entscheiden welcher Operator (+,-,+,/) genutzt werden soll.
+  - Dieser Operator soll in der Variable operator als String abgespeichert werden.
 
+- Das Ergebnis der Rechnung soll in der Variable result abgespeichert werden, nutze eine when Verzweigung:
+  - ist der operator "+" --> number1 + number2
+  - ist der operator "-" --> number1 - number2
+  - ist der operator "*" --> number1 * number2
+  - ist der operator "/" --> number1 / number2
+    - Achtung! Zahlen können nicht durch 0 geteilt werden 
+      - Hinweis: hier brauchen wir noch eine if-else-Verzweigung
+  - in allen anderen Fällen: "ungültig"
+
+- printe abschließend die Rechenoperation und das Ergebnis. Es könnte folgendermaßen aussehen:
+```
+Das Ergebnis aus 1 + 2 ist 3.
+```
 </details>
 
 ---
 
 <details>
-<summary> <b> Bonus - Poesiegenerator </b></summary>
+<summary> <b> Bonus - Zahlenraten </b></summary>
 
 **Datei für die Aufgabe:** *Bonus.kt*
 
-Ziel dieser Aufgabe ist es eine poetische Zufallsausgabe zu generieren. 
-Diese soll sich aus zufällig gewählten Elementen verschiedener Listen zusammensetzen.
+Erstelle in einer Funktion numberGuessing ein kleines Spiel.
+Die spielende Person versucht hier eine Zahl zu erraten.
 
-- Erstelle dafür mindestens 4 Listen mit einzelnen Wörtern, gerne auch mehr
-- Lasse dir zufällig Elemente aus den Listen ausgeben und Reihe diese in der Ausgabe aneinander
-- Genieße dein Leben als Poet!
+- In der Variable number wird eine zufällige Zahl zwischen 1 und 10 abgespeichert.
+  - Das kennt ihr noch nicht, nutzt das Netz oder Lektüre zur Recherche.
+  - Hinweis: ihr braucht ranges und random()
+
+- Anschließend wird die spielende Person gebeten eine Zahl zwischen 1 und 10 in die Konsole einzugeben.
+  - Diese Zahl wird in der Variable chosenNumber abgespeichert.
+
+- Anschließend überprüft ihr, ob die chosenNumber größer, kleiner oder gleich der number ist
+- Printed eine entsprechende Information dazu für die spielende Person aus.
 
 </details>
 
