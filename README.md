@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img src="img/img.png" />
+  <img src="img/functions.png" />
 </p>
 
 ### Beschreibung
@@ -45,12 +45,12 @@ Vorgaben:
 
 It’s magic time. Worte und Namen sind mächtig. Was denkst du wieso alle Zauberer und Magier ihre Magie mit Sprüchen beschwören? Diese Macht gilt für alles, was einen Namen hat. 
 Deswegen sei weise in der Namensgebung. Ansonsten wird dir dessen Magie noch zum Verhängnis. Bist du ein Champion der magischen IT-Künste? Das wirst du in den folgenden Aufgaben herausfinden.
-Weiter unten findest du einen Codeschnipsel einer Funktion. Mit dieser Funktion kann ein Zauberer einen Schutzzauber bewirken. Überlege dir einen passenden Namen.
+Weiter unten findest du einen Codeschnipsel einer Funktion. Mit dieser Funktion kann ein Zauberer einen Schutzzauber bewirken. Überlege dir einen passenden Namen und rufe die Funktion in der `main()` auf. Wie geht das nochmal?
 
 ```
 fun _________(){
-   var magicNo1 = "Expecto"
-   var magicNo2 = "Patronom"
+   var magicWord1 = "Expecto"
+   var magicWord2 = " Patronum"
    print(magicNo1 + magicNo2 + "!!!")
 }
 ```
@@ -65,6 +65,8 @@ fun _________(){
 **Datei für die Aufgabe:** *3_Textabgabe.kt*
 
 Dein Chef hat eine Formel entdeckt, mit der er das Volumen eines Würfels berechnen kann. Aber er tut sich schwer mit der Namensgebung. Kannst du ihm dabei helfen einen geeigneten Namen zu formulieren?
+
+Überlege dir einen passenden Namen und rufe die Funktion in der `main()` auf.
 
 ```
 fun _______(){
@@ -110,8 +112,9 @@ fun main(){
 
 **Datei für die Aufgabe:** *5_FunktionSubtrahieren.kt*
 
-- Schreibe eine Funktion, in der eine Zahl von einer anderen Zahl abziehst und das Ergebnis ausgibst.
-- Rufe die Funktion in der main-Funktion auf!
+Schreibe eine Funktion, in der eine Zahl von einer anderen Zahl abziehst und das Ergebnis in der Konsole ausdruckst.
+
+Rufe die Funktion in der main-Funktion auf!
 
 </details>
 
@@ -131,7 +134,7 @@ addition() {
     println(number1 + number2)
 }
 ```
-**Hinweis:** manchmal reicht ein falsches Wort, dass dein Code nicht mehr funktioniert.
+**Hinweis:** manchmal reicht ein falsches/fehlendes Wort, dass dein Code nicht mehr funktioniert.
 
 </details>
 
@@ -181,11 +184,22 @@ weekday = "Dienstag"
 
 a)  
 Den Flächeninhalt eines rechtwinkligen Dreiecks lässt sich durch `a * b / 2` ausrechnen.
-Implementiere die Berechnung für ein rechtwinkliges Dreieck in einer Funktion. Am Ende dieser Funktion soll das Ergebnis mit println() ausgegeben werden. Überlege dir auch einen passenden (englischen) Namen. Seite A soll 4cm lang sein und Seite B soll 3 cm lang sein.  
+Implementiere die Berechnung für ein rechtwinkliges Dreieck in einer Funktion. Am Ende dieser Funktion soll das Ergebnis mit println() ausgegeben werden. 
+
+Überlege dir auch einen passenden (englischen) Namen. 
+
+Seite A soll 4cm lang sein und Seite B soll 3 cm lang sein.  
 
 b)  
 Ändere jetzt die Funktion, die du in a) geschrieben hast. 
 Die Seitenlängen des Dreiecks sollen dann nicht mehr statisch 4cm bzw 3cm sein, sondern sollen vom Nutzer mithilfe einer Eingabe bestimmt werden. Teste deine Funktion und gib **3** als Seitenlänge A und **5** als Seitenlänge B ein. Kommt das Ergebnis **7.5** heraus?
+
+#### Bonus: 
+Baue hier Exception Handling mit `try-catch` ein, sodass bei falschen Usereingaben Fehler abgefangen werden. Wenn etwas sinnloses eingegeben wurde, soll für `a` als default Wert `13.0`, für `b` als Default `3.0` genutzt werden.
+
+
+Rufe die Funktion danach in der `main()` auf!
+
 
 </details>
 
@@ -196,12 +210,11 @@ Die Seitenlängen des Dreiecks sollen dann nicht mehr statisch 4cm bzw 3cm sein,
 
 **Datei für die Aufgabe:** *9_FunktionEntwerfen.kt*
 
-Schreibe eine Funktion `waitForSeconds`.
-- Innerhalb dieser Funktion soll der Nutzer eine Ganzzahl-Eingabe via der Konsole machen. Diese Eingabe soll dann genutzt werden, um das Programm so viele Sekunden anzuhalten.
-- Tipp: Um das Programm warten zu lassen, benutze `Thread.sleep()`. 
-- Thread erwartet von uns gesagt zu bekommen, wie viele Millisekunden das Programm schlafen soll.
-- Die Millisekunden müssen als long angegeben werden. Wandle also den Input des Nutzers um mit toLong().
-- Rufe diese Funktion in der main-Funktion auf und teste ob sie funktioniert!
+Schreibe eine Funktion `schaltJahr`, die ein vom Benutzer eingegebenes Jahr darauf prüft, ob es ein Schaltjahr ist. 
+
+Ein Jahr ist ein Schaltjahr, wenn es durch 4 teilbar ist, aber nicht durch 100, es sei denn, es ist auch durch 400 teilbar.
+
+Drucke entsprechendes Feedback in der Konsole aus.
 
 </details>
 
@@ -226,8 +239,10 @@ Erstelle eine Funktion calculator
   - ist der operator "-" --> number1 - number2
   - ist der operator "*" --> number1 * number2
   - ist der operator "/" --> number1 / number2
-    - Achtung! Zahlen können nicht durch 0 geteilt werden 
-      - Hinweis: hier brauchen wir noch eine if-else-Verzweigung
+   
+
+- Achtung! Zahlen können nicht durch 0 geteilt werden 
+  - Hinweis: hier brauchen wir noch eine Verzweigung
   - in allen anderen Fällen: "ungültig"
 
 - printe abschließend die Rechenoperation und das Ergebnis. Es könnte folgendermaßen aussehen:
@@ -248,7 +263,7 @@ Die spielende Person versucht hier eine Zahl zu erraten.
 
 - In der Variable number wird eine zufällige Zahl zwischen 1 und 10 abgespeichert.
   - Das kennt ihr noch nicht, nutzt das Netz oder Lektüre zur Recherche.
-  - Hinweis: ihr braucht ranges und random()
+  - Hinweis: ihr braucht eine IntRange wie zB 1..10 und könnt darauf `.random()` aufrufen.
 
 - Anschließend wird die spielende Person gebeten eine Zahl zwischen 1 und 10 in die Konsole einzugeben.
   - Diese Zahl wird in der Variable chosenNumber abgespeichert.
