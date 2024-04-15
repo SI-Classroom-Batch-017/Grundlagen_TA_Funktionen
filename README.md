@@ -16,6 +16,12 @@ In Kotlin sind Funktionen super praktisch, weil sie dir helfen, Code in kleine T
 > - `Commit & Push` dein Ergebnis am Ende des Tages
 <br>
 
+<details>
+<summary> <b> Aufgabe 0 - Single Choice Quiz </b></summary>
+**Datei für die Aufgabe** *Aufgabe00*
+
+Beantworte die Quizfragen zum Thema Funktionen. Es ist jeweils 1 Antwort richtig.
+</details>
 
 <details>
 <summary> <b> Aufgabe 1 - Funktion implementieren und aufrufen </b> </summary>
